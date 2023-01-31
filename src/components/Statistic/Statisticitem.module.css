@@ -1,43 +1,65 @@
-/* .statistics {
+.statisticsContainer {
+    max-width: 50%;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    box-shadow: 0 0 10px #c6cccced;
-    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.5rem;
 }
 
 .title {
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 15px;
-    color: #524a4d;
+    margin: 0;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #d3d5e3;
 }
 
-.stats__list {
-    width: 370px;
-    display: flex;
-    justify-content: space-evenly;
+.statList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-.stats {
+.statList>.statListItem,
+.statList>.statListItemNoTitle {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    width: inherit;
-    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+}
+
+.statListItem:first-child {
+    border-radius: 0 0 0 0.5rem;
+}
+
+.statListItem:last-child {
+    border-radius: 0 0 0.5rem;
+}
+
+.statListItemNoTitle:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.statListItemNoTitle:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .label {
-    font-weight: 700;
-    font-size: 20px;
-    color: #524a4d8b;
-    margin-bottom: 5px;
+    padding-top: 1.3rem;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .percentage {
-    font-weight: 800;
-    font-size: 20px;
-    color: #524a4d;
-} */
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}

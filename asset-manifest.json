@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Viktoriia181818/goit-react-hw-01-components/static/css/main.c3199bde.css",
-    "main.js": "/Viktoriia181818/goit-react-hw-01-components/static/js/main.e6c39f31.js",
+    "main.js": "/Viktoriia181818/goit-react-hw-01-components/static/js/main.b8638149.js",
     "index.html": "/Viktoriia181818/goit-react-hw-01-components/index.html",
     "main.c3199bde.css.map": "/Viktoriia181818/goit-react-hw-01-components/static/css/main.c3199bde.css.map",
-    "main.e6c39f31.js.map": "/Viktoriia181818/goit-react-hw-01-components/static/js/main.e6c39f31.js.map"
+    "main.b8638149.js.map": "/Viktoriia181818/goit-react-hw-01-components/static/js/main.b8638149.js.map"
   },
   "entrypoints": [
     "static/css/main.c3199bde.css",
-    "static/js/main.e6c39f31.js"
+    "static/js/main.b8638149.js"
   ]
 }

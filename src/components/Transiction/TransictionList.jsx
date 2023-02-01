@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import css from './TransictionList.module.css';
 
 export const TransactionHistory = ({ items }) => (
-    <table className={TransactionHistory}>
-        <thead className={TransactionHistory}>
+    <table>
+        <thead>
             <tr className={css.valueTable}>
                 <th className={css.columnTable}>Type</th>
                 <th className={css.columnTable}>Amount</th>
